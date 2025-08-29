@@ -1,2 +1,2 @@
 # EternalSelf
-My awesome compendium, maximum vibe coding. Praise the AI's.
+My awesome magick compendium, maximum vibe coding. Praise the AI's.
