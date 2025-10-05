@@ -439,12 +439,6 @@
 
   function clearCanvas(){
     ctx.clearRect(0,0,W(),H());
-    // subtle background vignette
-    const g = ctx.createRadialGradient(CX(), CY(), Math.min(W(),H())*0.15, CX(), CY(), Math.min(W(),H())*0.62);
-    g.addColorStop(0, "rgba(18, 38, 82, .15)");
-    g.addColorStop(1, "rgba(10, 23, 48, 0)");
-    ctx.fillStyle = g;
-    ctx.fillRect(0,0,W(),H());
   }
 
   function render(){
