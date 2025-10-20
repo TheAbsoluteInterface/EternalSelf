@@ -372,7 +372,7 @@
     ctx.restore();
   }
 
-  function drawSigil(points, {thickness=5, smooth=false, closePath=false} = {}){
+  function drawSigil(points, {thickness=5, smooth=true, closePath=false} = {}){
     if (!points.length) return;
 
     ctx.save();
