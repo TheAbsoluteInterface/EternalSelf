@@ -195,7 +195,7 @@
         <div class="row inline" role="group" aria-label="Style options">
           <label class="switch"><input type="checkbox" id="showGuide" checked> Show outer guide</label>
           <label class="switch"><input type="checkbox" id="showLetters"> Show letter ring</label>
-          <label class="switch"><input type="checkbox" id="smooth"> Smooth path</label>
+          <label class="switch"><input type="checkbox" id="smooth" checked> Smooth path</label>
           <label class="switch"><input type="checkbox" id="closePath"> Close path</label>
         </div>
 
@@ -372,7 +372,7 @@
     ctx.restore();
   }
 
-  function drawSigil(points, {thickness=5, smooth=true, closePath=false} = {}){
+  function drawSigil(points, {thickness=5, smooth=false, closePath=false} = {}){
     if (!points.length) return;
 
     ctx.save();
