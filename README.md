@@ -1,2 +1,2 @@
 # EternalSelf
-My magick compendium.
+My cool magick compendium.
